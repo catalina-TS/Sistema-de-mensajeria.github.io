@@ -18,12 +18,68 @@
 
 body{
     margin: 0;
+    display: flex;
+    font-family: 'OpenSans';
 }
 
 /*Contactos*/
 
 .contactos{
+display: flex;
+flex-direction: column;
+border-right: 1px solid #BEC1BB ;
+}
 
+/*Usuario*/
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 30px;
+    gap: 15px;
+    border-bottom: 1px solid #BEC1BB ;
+    background-color: aquamarine;
+}
+
+/*Estado de usuario*/
+
+.maria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.estado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre{
+    font-size: medium;
+}
+
+.activo{
+    font-size: x-small;
+    color: #BEC1BB;
+}
+
+.foto img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+/*Íconos de usuario*/
+
+.iconos{
+    display: flex;
+    gap: 15px;
+    color: #828485;
 }
 
 /*Sección principal*/
