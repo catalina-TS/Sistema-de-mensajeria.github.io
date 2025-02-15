@@ -1,3 +1,5 @@
+/*Fuentes*/
+
 @font-face {
     font-family: 'Roboto';
     src: url(../font/Roboto-Bold.ttf);
@@ -12,6 +14,20 @@
     font-style: normal;
 }
 
+/*General*/
+
 body{
     margin: 0;
+}
+
+/*Contactos*/
+
+.contactos{
+
+}
+
+/*Sección principal*/
+
+.principal{
+
 }
