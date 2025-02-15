@@ -20,6 +20,8 @@ body{
     margin: 0;
     display: flex;
     font-family: 'OpenSans';
+    flex-direction: row;
+    height: 100vh;
 }
 
 /*Contactos*/
@@ -27,7 +29,9 @@ body{
 .contactos{
 display: flex;
 flex-direction: column;
+flex-basis: 25%;
 border-right: 1px solid #BEC1BB ;
+
 }
 
 /*Usuario*/
@@ -37,7 +41,6 @@ border-right: 1px solid #BEC1BB ;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 10px 30px;
     gap: 15px;
     border-bottom: 1px solid #BEC1BB ;
@@ -85,5 +88,7 @@ border-right: 1px solid #BEC1BB ;
 /*Sección principal*/
 
 .principal{
+    background-color: rgb(86, 158, 148);
+    flex: 1;
 
 }
