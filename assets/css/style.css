@@ -16,8 +16,13 @@
 
 /*General*/
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
+    padding: 0;
     display: flex;
     font-family: 'OpenSans';
     flex-direction: row;
@@ -30,6 +35,7 @@ body{
 display: flex;
 flex-direction: column;
 flex-basis: 25%;
+width: 100% ;
 border-right: 1px solid #BEC1BB ;
 
 }
@@ -85,10 +91,16 @@ border-right: 1px solid #BEC1BB ;
     color: #828485;
 }
 
+.iconos :hover{
+    color: #A491D2;
+    cursor: pointer;
+}
+
 .boton{
 display: flex;
 justify-content: center;
 align-items: center;
+width: 100%;
 padding: 35px;
 border-bottom:1px #BEC1BB solid ;
 }
@@ -100,9 +112,52 @@ border: none;
 padding: 15px 75px;
 }
 
+.boton :hover{
+    background-color: #cdc3e6; ;
+    cursor: pointer;
+}
+
 /*Los Chats*/
 
+.chats{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 
+.lista-chats{
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 1px #BEC1BB solid;
+
+}
+
+.lista-chats :hover{
+    background-color: #E8EBE4;
+    cursor: pointer;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px;
+}
+
+.contacto{
+display: flex;
+flex-direction: column;
+}
+
+.mensaje{
+    font-size: small;
+}
+.foto-chat img{
+    width: 50px;
+    border-radius: 50%;
+}
 
 /*Sección principal*/
 
