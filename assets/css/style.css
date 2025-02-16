@@ -71,10 +71,12 @@ border-right: 1px solid #BEC1BB ;
 }
 
 .nombre{
+margin: 0;
     font-size: medium;
 }
 
 .activo{
+    margin: 0;
     font-size: x-small;
     color: #BEC1BB;
 }
@@ -154,6 +156,7 @@ flex-direction: column;
 }
 
 .mensaje{
+    margin: 0;
     font-size: small;
 }
 .foto-chat img{
@@ -186,7 +189,7 @@ flex-direction: column;
     align-items: center;
 }
 
-.bienvenida h1{
+.bienvenida h3{
     font-size: 45px;
     margin-top: 15px;
     margin-bottom: 5px;
