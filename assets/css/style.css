@@ -130,6 +130,7 @@ padding: 15px 75px;
 .lista-chats{
     list-style-type: none;
     width: 100%;
+    padding: 4px;
     border-bottom: 1px #BEC1BB solid;
 
 }
